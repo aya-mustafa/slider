@@ -1,0 +1,42 @@
+body
+{
+    font-family: 'segio ui light';
+}
+.layer
+{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0px;
+    right:0px;
+    bottom: 0px;
+    left: 0px;
+    display: none;
+}
+#bg
+{
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icons
+{
+    position: relative;
+}
+#close
+{
+    position: absolute;
+    top: 15px;
+    right:13px;
+}
+@media (max-width:767px)
+{
+    .slider .imag
+    {
+        margin-bottom: 50px;
+    }
+}
